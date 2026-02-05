@@ -217,7 +217,7 @@ export function DashboardSidebar({ setSelectedFolder, setShowTemplates }: { setS
         </SidebarContent>
 
         <SidebarFooter className="p-4">
-          <Link href="/app/dashboard/workspace-settings/page.tsx">
+          <Link href="/dashboard/workspace-settings">
           <Button variant="outline" className="w-full border-white/10 text-white bg-black hover:bg-white/10">
             <Settings className="mr-2 h-4 w-4" />
             Workspace Settings
