@@ -1,8 +1,13 @@
 "use client"
 
+import DashboardIcon from '@/components/dashboard/dashboardIcon'
+
 export default function WorkspaceSettingsPage() {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-4">
+
+      <DashboardIcon />
+      
       <h1 className="text-3xl font-bold mb-6">Workspace Settings</h1>
       <p className="text-white/70 mb-8 text-center max-w-lg">
         Configure your workspace settings, manage team members, and set permissions here.
